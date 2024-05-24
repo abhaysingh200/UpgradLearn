@@ -1,0 +1,18 @@
+body {
+    background-color: #ffeedd;
+}
+
+#allPostsBtn {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 40px;
+    background-color: green;
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 10px;
+}
+
+#allPostsBtn:hover {
+    background-color: darkgreen;
+}

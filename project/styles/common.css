@@ -1,0 +1,46 @@
+body {
+    font-family: 'Ubuntu Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    font-family: 'Montez', cursive;
+    font-size: 2em;
+}
+
+.subheading {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.auth-buttons .btn {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-buttons .btn:hover {
+    background-color: darkblue;
+}
+
+main {
+    padding: 20px;
+}
+
+.btn {
+    cursor: pointer;
+}

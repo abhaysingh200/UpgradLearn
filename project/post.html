@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScriBBler - Post</title>
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/post.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">ScriBBler</div>
+        <div class="subheading">Explore, Imagine, Create</div>
+        <div class="auth-buttons">
+            <button class="btn" id="signInBtn">Sign In</button>
+            <button class="btn" id="signUpBtn">Sign Up</button>
+        </div>
+    </header>
+    <main>
+        <div class="post-container">
+            <div class="post-header">
+                <span class="author">Author Name</span>
+                <button class="btn" id="editBtn">Edit <i class="fas fa-edit"></i></button>
+            </div>
+            <h1 id="postTitle" class="post-title">Post Title</h1>
+            <div id="postContent" class="post-content">
+                <p>This is the content of the post.</p>
+            </div>
+            <button class="btn like-btn" id="likeBtn"><i class="fas fa-thumbs-up"></i> Like</button>
+            <p id="likeStatus">Be the first one to like this!</p>
+            <input type="text" id="commentInput" placeholder="Leave a comment...">
+            <button class="btn btn-red" id="commentBtn">Comment</button>
+            <div id="commentsSection" class="comments-section">
+                <h3>All Comments</h3>
+                <div id="commentsList" class="comments-list">
+                    <!-- Comments will appear here -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="scripts/common.js"></script>
+    <script src="scripts/post.js"></script>
+</body>
+</html>

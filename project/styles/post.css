@@ -1,0 +1,97 @@
+body {
+    background-color: #ffeedd;
+}
+
+.post-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.author {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: bold;
+}
+
+#editBtn {
+    background-color: #007bff;
+    color: white;
+}
+
+#editBtn .fa-edit {
+    margin-left: 5px;
+}
+
+.post-title {
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.post-content {
+    font-family: 'Ubuntu Mono', monospace;
+    margin-bottom: 20px;
+}
+
+.post-content.editable {
+    border: 2px solid pink;
+    padding: 10px;
+}
+
+.like-btn {
+    background-color: #28a745;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.like-btn .fa-thumbs-up {
+    margin-right: 5px;
+}
+
+#likeStatus {
+    font-family: 'Ubuntu Mono', monospace;
+    margin-bottom: 20px;
+}
+
+#commentInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+}
+
+.comments-section {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.comments-list {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.comment {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
